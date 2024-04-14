@@ -1,6 +1,6 @@
 import {Router} from 'express';
-import { userRouter } from './userRouter';
-import { messageRouter } from './messageRouter';
+import { userRouter } from './userRouter.js';
+import { messageRouter } from './messageRouter.js';
 
 export const globalRouter = Router();
 

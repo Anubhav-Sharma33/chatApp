@@ -2,7 +2,7 @@ import { Server } from "socket.io";
 
 const ConnectedUser = {};
 
-function initializeSocket(server){
+function initializeSocket(httpServer){
     const io = new Server(httpServer);
 
     io.on('connection', (socket) => {
